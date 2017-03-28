@@ -7,18 +7,29 @@ img {
   margin-bottom: 10px;
 }
 
+h1, h2, h3 {
+  padding: 10px;
+  background: #f8f8f8;
+  color: #444;
+}
+
+.chaves {
+  float: right;
+}
+
+h4, strong, .autor {
+  font-size: 1.2em;
+}
+
+.autor {
+  margin-top: 0;
+  background: #f8f8f8;
+  padding-left: 10px;
+}
+
 .thumbnail p {
   font-size: 1em;
   text-align: center;
-}
-
-
-li {
-  list-style: circle;
-}
-
-.menuSelecionado {
-  list-style: initial;
 }
 
 .entrevista-pergunta {
