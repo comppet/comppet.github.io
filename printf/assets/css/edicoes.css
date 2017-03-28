@@ -24,3 +24,8 @@ li {
 .entrevista-pergunta {
   color: #C4040A;
 }
+
+.proxima-secao {
+  margin: 25px 0;
+  text-align: center;
+}
