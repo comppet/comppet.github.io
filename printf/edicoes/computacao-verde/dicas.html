@@ -6,10 +6,46 @@
     <link rel="stylesheet" href="../../assets/css/lib/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/css/printf.css">
     <link rel="stylesheet" href="../../assets/css/edicoes.css">
+
+    <script type="text/javascript" src="../../assets/js/lib/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/lib/bootstrap.min.js"></script>
   </head>
   <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">Printf</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Computação Verde</a></li>
+            <li><a href="editorial.html">Editorial</a></li>
+            <li><a href="imaismais.html">i++</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="noticias.html">Notícias</a></li>
+            <li><a href="softwarelivre.html">Software Livre</a></li>
+            <li><a href="mundoacademico.html">Mundo Acadêmico</a></li>
+            <li class="active"><a href="dicas.html">Dicas</a></li>
+            <li><a href="entrevistas.html">Entrevista</a></li>
+            <li><a href="cartas.html">Cartas do Leitor</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
     <div class="container">
       <div class="row">
+        <!--
         <div class="col-sm-4 navegacao">
           <h1><a href="../../index.html">Printf</a></h1>
           <h1><a href="index.html">Computação Verde</a></h1>
@@ -25,7 +61,8 @@
             <li><a href="cartas.html">Cartas do Leitor</a></li>
           </ul>
         </div>
-        <div class="col-sm-8">
+      -->
+        <div class="col-sm-12">
           <h1 class="secao">Dicas</h1>
           <p class="autor">Autores: Eder Paraiso C. Flor e Pedro Henrique Araújo</p>
           <p>Amplie seus horizontes, confira aqui dicas de programação e auxílio no dia-a-dia acadêmico!</p>
@@ -34,12 +71,12 @@
           <p>Além da manipulação de ponteiros, a falta do "tipo" String afasta muita gente da programação em linguagens procedimentais como C e as aproxima das linguagens orientadas a objeto, por exemplo. Façamos então em Java. Ok, a geração de um código intermediário degrada o desempenho frente à linguagens como C, mas não é desse desempenho que será tratado.</p>
           <p>A manipulação de cadeias de caracteres em Java é extremamente simples. Há várias classes para isso. A mais usada e conhecida é a classe String, do pacote java.lang. Precisou de uma string? É fácil, crie e use!</p>
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-xs-6">
               <p><code>String x = "hello"; </code></p>
               <p>Vai precisar unir com outra string? É mais fácil ainda! </p>
               <p><code>String a = x + " world";</code></p>
             </div>
-            <div class="col-sm-6">
+            <div class="col-xs-6">
               <div class="thumbnail">
                   <img src="imagens/dicas_array.png" alt="">
               </div>
@@ -52,14 +89,14 @@
           <p>Trataremos específicamente das diferenças entre as classes String e StringBuffer. A classe StringBuilder trabalha de forma semelhante a StringBuffer. A classe String é utilizada para cadeias de caracteres que não podem ser mudadas. Ou seja, os objetos do tipo String são read only, imutáveis. Qualquer operação que resulte na alteração dessa string necessitará de um novo objeto. Por outro lado, a classe StringBuffer é utilizada para cadeias de caracteres que podem ser modificadas, daí a referência ao nome buffer.</p>
           <p>Consideremos a seguinte concatenação utilizando a classe String:</p>
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-xs-6">
               <p><code>String str = new String ("Revista "); </code></p>
               <p><code>str += "printf!!"; </code></p>
               <p>Se usássemos a classe StringBuffer para realizar a mesma concatenação, o código seria: </p>
               <p><code>StringBuffer str = new StringBuffer ("Revista "); </code></p>
               <p><code>str.append("printf!!");</code></p>
             </div>
-            <div class="col-sm-6">
+            <div class="col-xs-6">
               <div class="thumbnail">
                 <img src="imagens/dicas_aspas.png" alt="">
               </div>
@@ -77,11 +114,11 @@
 
           <ol>
             <div class="row">
-              <div class="col-sm-8">
+              <div class="col-xs-8">
                 <li>Strings com varias linhas</li>
                 <p><code>String text=<br>"Hello\n"+<br>"World\n"+<br>"Again";</code></p>
               </div>
-              <div class="col-sm-4">
+              <div class="col-xs-4">
                 <div class="thumbnail">
                   <img src="imagens/dicas_cruz.png" alt="">
                 </div>
@@ -101,10 +138,10 @@
           <p>Agora, para aqueles interessados nos bytecodes: De acordo com o tópico publicado em http://kaioa.com/node/59, para concatenação de dois ou três operandos, utiliza-se o operador "+"; para quatro ou mais, dê preferencia para StringBuffer. Quem diria... um simples "+" pode gerar tanta polêmica quanto discutir uma linguagem apropriada para construir uma aplicação! Com o encapsulamento, os detalhes por vezes nos escapam e com um leque de opções disponíveis poucas vezes temos a curiosidade de saber as peculiaridades de cada uma.</p>
 
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-xs-8">
               <p>Para aplicações corriqueiras ou de criticidade pequena, pode ser algo bobo com o que se preocupar. Mas vejamos um exemplo básico e não tão distante: Programação para dispositivos móveis. Os dispositivos móveis possuem quantidade de memória limitada e poder de processamento baixo se comparado à desktops, por exemplo. Um prato cheio. E limitado. Neste caso, a forma como se concatenam as possíveis strings de seu aplicativo pode fazer uma diferença significativa em um ambiente tão limitado. Uma pesquisa a mais pode trazer grandes benefícios à suas aplicações, bem como conhecimento. Fica aí a dica.</p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-xs-4">
               <div class="thumbnail">
                 <img src="imagens/dicas_prato.png" alt="">
               </div>
@@ -120,10 +157,10 @@
           <p>Muitos não percebem esses detalhes ou não se preocupam com as falhas de segurança que uma aplicação pode ter, seja por falta de conhecimento ou por questão de custos e prazos no projeto. No entanto, a segurança das informações é um assunto que exige atenção especial, principalmente em se tratando de informações armazenadas em bancos de dados acessados via Web.</p>
           <p>Existem várias formas de se explorar vulnerabilidades em sistemas. Nesta matéria ficaremos restritos a uma vulnerabilidade comum em aplicações baseadas em bancos de dados SQL: SQL Injection (Injeção SQL). SQL Injection é o termo utilizado para designar a inserção de código SQL malicioso em uma operação select, no contexto de uma aplicação.</p>
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-xs-6">
               <p>Um usuário mal intencionado pode se valer da sintaxe da SQL para inserir instruções maliciosas na consulta que está por trás de uma janela da uma aplicação. Por exemplo, considere a tela de login de uma aplicação. Considere também que o login do usuário é "sulu" e que sua senha é "spock". Ao preencher esses dados e pressionar o botão "ENTRAR", a aplicação provavelmente irá realizar a seguinte consulta: <code>SELECT id FROM user WHERE nome = 'sulu' AND senha = 'spock';</code></p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-xs-6">
               <div class="thumbnail">
                   <img src="imagens/dicas_login.jpg" alt="">
               </div>
@@ -176,11 +213,11 @@
           <h3>Casos no dia-a-dia</h3>
           <p>O site G1, da globo publicou em 28/08/09 a seguinte notícia de golpes virtuais (acompanhe trechos)</p>
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-xs-8">
               <p>Do G1, com informações da Associated Press</p>
               <p>"O hacker Albert Gonzales, de 28 anos, assumiu nesta sexta-feira (28) a culpa pela invasão de sistemas e roubo de dados referentes a cartões de crédito, segundo documentos de um acordo apresentados em tribunal de Boston. Gonzales era acusado de comandar um grupo para invasão de sistemas e roubo de informações, incluindo dados relativos a mais de 130 milhões de cartões de crédito e débito.(...)</p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-xs-4">
               <img src="imagens/dicas_cadeado.png" class="img img-responsive">
             </div>
           </div>
@@ -192,10 +229,10 @@
           <p>Mesmo os meios de proteção já existindo automaticamente em alguns cenários, o intuito dessa matéria foi expor questões de segurança, as vezes desconhecidas, principalmente por quem está iniciando o desenvolvimento.</p>
           <p>Outra dica importante é evitar a exibição das mensagens de erro em um servidor de aplicação em produção, pois geralmente nos erros ou alertas são exibidos caminhos de diretórios do sistema de arquivos e informações à respeito do esquema do banco de dados, podendo comprometer a segurança do sistema.</p>
           <div class="row">
-            <div class="col-sm-2">
+            <div class="col-xs-2">
               <img src="imagens/dicas_seringa.png" class="img img-responsive" alt="">
             </div>
-            <div class="col-sm-10">
+            <div class="col-xs-10">
               <p>Cabe ao desenvolvedor estar atento às possíveis brechas de segurança existentes nos códigos fonte que produz, principalmente quando o que está em jogo é um bem de grande valia: a informação. Já diziam por ai: mais vale previnir do que remediar. Previnam-se, vacinem suas aplicações! E o mais importante: chequem regularmente o cartão de vacinas, ou seja, mantenha-se informado! </p>
             </div>
           </div>
@@ -216,40 +253,40 @@
             <li><strong>Agende-se: </strong>antes de qualquer coisa, faça sua agenda, seu cronograma de horários. Sem isso você pode ficar perdido e sem saber o que fazer em determinada hora do dia. Lembre-se sempre de colocar os momentos de lazer e de outras atividades que não estejam relacionadas ao estudo. </li>
           </ul>
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-xs-4">
               <img src="imagens/dicas_einsten.png" class="img img-responsive" alt="">
             </div>
-            <div class="col-sm-8">
+            <div class="col-xs-8">
               <li><strong>Aula dada, aula estudada:</strong> não deixe acumular matéria, são muitas. Deixar para estudar apenas nas vésperas das provas pode prejudicar outras atividades. Além disso, sem ter estudado as aulas passadas, é possível que você não entenda bem o que o professor fala em sala de aula, prejudicando o entendimento de toda a matéria que ainda será dada.</li>
               <li><strong>Não passe do seu limite:</strong> todos têm limites e deve-se respeitá-lo. Ultrapassar o próprio limite pode custar caro. Pode ser que você não esteja preparado e acabe se prejudicando, perdendo rendimento e maltratando seu próprio corpo. </li>
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-xs-8">
               <li><strong>Tenha prioridades: </strong>dê maior prioridade para as matérias que exigem uma maior atenção e concentração. Assim você distribui melhor o tempo gasto com cada disciplina.</li>
               <li><strong>Não desista: </strong>se você não foi obteve bom desempenho nas primeiras avaliações, não desanime. Ainda há tempo, corra atrás do prejuízo, você ainda é capaz de recuperá-lo. Procure colegas e professores, não tenha vergonha de pedir ajuda.</li>
             </div>
-            <div class="col-sm-4">
+            <div class="col-xs-4">
               <img src="imagens/dicasbalanca.png" class="img img-responsive" alt="">
             </div>
           </div>
 
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-xs-4">
               <img src="imagens/dicas_associatividade.png" class="img img-responsive" alt="">
             </div>
-            <div class="col-sm-8">
+            <div class="col-xs-8">
               <li><strong>Ajude: </strong>sempre que for solicitado, tente ajudar os colegas, pois assim é uma maneira de rever o conteúdo. A dúvida de um colega pode ser relacionada a algum tópico que passou despercebido por você enquanto estudava. </li>
               <li><strong>Divirta-se: </strong>qualidade de vida também é importante. Assista um bom filme, ouça uma boa música, aproveite o fim de semana. Isso ajudará a manter o bom humor, diminuindo o stress acumulado durante a semana. </li>
             </div>
           </div>
 
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-xs-6">
               <li><strong>Pense no futuro: </strong>nunca esqueça o motivo de sua formação acadêmica. Pense no que você quer alcançar quando se formar. Mantenha o foco e motive-se para concluir seus estudos com êxito.</li>
               <p>Pronto! Com um pouco de prática e organização é possível fazer o que às vezes parece impossível. Organize-se, coloque as dicas em prática e prepare-se para a luta do semestre! </p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-xs-6">
               <img src="imagens/dicas_objetivo.png" alt="">
             </div>
           </div>

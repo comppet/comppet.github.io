@@ -6,10 +6,45 @@
     <link rel="stylesheet" href="../../assets/css/lib/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/css/printf.css">
     <link rel="stylesheet" href="../../assets/css/edicoes.css">
+
+    <script type="text/javascript" src="../../assets/js/lib/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/lib/bootstrap.min.js"></script>
   </head>
   <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">Printf</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Computação Verde</a></li>
+            <li><a href="editorial.html">Editorial</a></li>
+            <li><a href="imaismais.html">i++</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="noticias.html">Notícias</a></li>
+            <li class="active"><a href="softwarelivre.html">Software Livre</a></li>
+            <li><a href="mundoacademico.html">Mundo Acadêmico</a></li>
+            <li><a href="dicas.html">Dicas</a></li>
+            <li><a href="entrevistas.html">Entrevista</a></li>
+            <li><a href="cartas.html">Cartas do Leitor</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
     <div class="container">
       <div class="row">
+        <!--
         <div class="col-sm-4 navegacao">
           <h1><a href="../../index.html">Printf</a></h1>
           <h1><a href="index.html">Computação Verde</a></h1>
@@ -25,7 +60,8 @@
             <li><a href="cartas.html">Cartas do Leitor</a></li>
           </ul>
         </div>
-        <div class="col-sm-8">
+      -->
+        <div class="col-sm-12">
           <h1 class="secao">Software Livre</h1>
           <p class="autor">Autores: Arthur Morais de Andrade e Eduardo Silva Rosa</p>
           <p>Bem vindo ao mundo livre dos softwares. Veja nessa área coisas interessantes sobre o open source.</p>
@@ -34,10 +70,10 @@
 
           <h2>Batalha dos Navegadores</h2>
           <div class="row">
-            <div class="col-sm-2">
-              <img src="imagens/softwarelivre_navegadores.jpg" alt="">
+            <div class="col-xs-3">
+              <img class="img img-responsive" src="imagens/softwarelivre_navegadores.jpg" alt="">
             </div>
-            <div class="col-sm-10">
+            <div class="col-xs-9">
               <p>Em 1990, Tim Berners-Lee (TBL) juntou hipertexto com a Internet e deu inicio à World Wide Web, ou simplesmente Web. O primeiro navegador da Web era em forma de texto (se você nunca viu um tente o <a href="http://lynx.isc.org/">lynx</a>). Desde então, o desenvolvimento dos navegadores tem sido, intrínsecamente, ligado ao desenvolvimento da própria Web.</p>
             </div>
           </div>
@@ -78,11 +114,11 @@
 
           <h2>Software Livre e TI Verde</h2>
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-xs-8">
               <p>Continuamente nos deparamos com reportagens a respeito de algum Estado ou empresa que conseguiu economizar milhões de reais, além de reduzir significativamente o consumo de energia elétrica da área administrativa, mérito à opção por medidas de TI Verde (Tecnologia da Informação ecologicamente correta). Estas medidas incluem a virtualização de parte dos servidores, reaproveitamento de equipamentos obsoletos e de aquisição de equipamentos com maior eficiência energética.</p>
               <p>O uso dessa tecnologia também tem contribuído para um avanço significativo dos programas em relação à otimização do processamento, de forma a realizar menos operações para efetuar cada tarefa, ou simplesmente realizá-las todas de uma vez para manter o processador em modo de economia de energia por mais tempo. Os softwares desenvolvidos de forma colaborativa, chamados de softwares livres, naturais ou orgânicos, têm crescido constantemente e são a última palavra em otimização.</p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-xs-4">
               <div class="thumbnail">
                 <img src="imagens/softwarelivre_linuxgreen.png" alt="">
               </div>

@@ -6,10 +6,45 @@
     <link rel="stylesheet" href="../../assets/css/lib/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/css/printf.css">
     <link rel="stylesheet" href="../../assets/css/edicoes.css">
+
+    <script type="text/javascript" src="../../assets/js/lib/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/lib/bootstrap.min.js"></script>
   </head>
   <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">Printf</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Computação Verde</a></li>
+            <li><a href="editorial.html">Editorial</a></li>
+            <li class="active"><a href="imaismais.html">i++</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="noticias.html">Notícias</a></li>
+            <li><a href="softwarelivre.html">Software Livre</a></li>
+            <li><a href="mundoacademico.html">Mundo Acadêmico</a></li>
+            <li><a href="dicas.html">Dicas</a></li>
+            <li><a href="entrevistas.html">Entrevista</a></li>
+            <li><a href="cartas.html">Cartas do Leitor</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
     <div class="container">
       <div class="row">
+        <!--
         <div class="col-sm-4 navegacao">
           <h1><a href="../../index.html">Printf</a></h1>
           <h1><a href="index.html">Computação Verde</a></h1>
@@ -25,7 +60,8 @@
             <li><a href="cartas.html">Cartas do Leitor</a></li>
           </ul>
         </div>
-        <div class="col-sm-8">
+      -->
+        <div class="col-sm-12">
           <h1 class="secao">i++</h1>
           <p class="autor">Autores: Daniel Alves e Túlio Moura</p>
           <p>Bem vindo à printf! Na seção i++ você encontrará a matéria de capa da revista. A cada edição traremos para você uma matéria especial sobre algum assunto relacionado à área de Tecnologia da Informação, algo que possa incrementar seu conhecimento.</p>
@@ -36,10 +72,10 @@
           <p>Foi-se o tempo em que apenas empresas relacionadas à tecnologia se preocupavam com a área de TI (Tecnologia da Informação). Hoje, com a automação de vários serviços, empresas que atuam nos mais diversos mercados já contratam profissionais para instalar e manter, pelo menos, um servidor para controle financeiro ou gerenciamento de arquivos. O fato é que, quanto maior a empresa, mais significantes se tornam as decisões tomadas para o setor responsável por esses serviços. Sabendo disso e tendo em vista o momento ambiental crítico em que vivemos, podemos vislumbrar uma revolução no modo de se gerenciar TI.</p>
 
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-xs-8">
               <p>Tudo teve início em meados de 1992 com o "Energy Star", selo que reconhece a eficiência energética de monitores, aparelhos de ar condicionado e de diversos eletrônicos, o selo ficou muito conhecido por aparecer em alguns computadores durante o processo de boot, comprovando o baixo consumo de energia da placa-mãe. Porém, há pouco tempo, o Painel Intergovernamental de Mudanças Climáticas (IPCC, em inglês) da Organização das Nações Unidas (ONU) publicou um relatório[<a href="#ref1">1</a>] que confirmou o que todos já sabiam, mas alguns ainda insistiam em negar: O planeta está se aquecendo e, se nada for feito, o resultado será catastrófico!</p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-xs-4">
               <div class="thumbnail">
                 <img src="imagens/energy_star_imm.jpg" alt="">
                 <span>Energy Star: Selo que certifica eficiência energética.</span>
@@ -82,10 +118,10 @@
           <p>Ao analisar serviços de diversos fabricantes de hardware, uma palavra parece ser indispensável para se conquistar o cliente: "Personalização". Não podia ser diferente, poder escolher qual a configuração dos blade servers de um datacenter, por exemplo, poupa dinheiro já na compra do equipamento. Em um segundo momento, a economia é feita no uso deste, um sistema bem dimensionado atende bem uma empresa, sem causar gastos excessivos com energia.</p>
 
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-xs-8">
               <p>A verdade é que até pouco tempo este assunto não era tratado da mesma forma. A filosofia de alguns gerentes de TI pregava que quanto mais "parrudas" os seus servidores, melhores seriam os resultados. Por isso, algum tempo após a aquisição de grandes máquinas, estes gerentes perceberam que os gastos, sobre tudo com refrigeração destes servidores, não eram compatíveis com o quanto de processamento ou armazenamento estavam utilizando. Se estabeleceu então um dilema: Gastar milhões com outras máquinas, mais adequadas, ou gastar milhões com sistemas de refrigeração e seus custos energéticos. Para evitar estes problemas é que a maior parte dos fabricantes prezam pela modularidade.</p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-xs-4">
               <div class="thumbnail">
                 <img src="imagens/imm_container.jpg">
                 <p>Modularização: Datacenters que utilizam contêiners podem ser facilmente expandidos com aquisição de outras unidades.</p>
@@ -115,12 +151,12 @@
           <h2>Mas qual o problema em se jogar lixo no lixo?</h2>
 
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-xs-4">
               <div class="thumbnail">
                 <img src="imagens/imm_hazard.png" alt="">
               </div>
             </div>
-            <div class="col-sm-8">
+            <div class="col-xs-8">
               <p>O descarte inconsequente de aparelhos eletrônicos vem se tornando um grave problema ambiental em todo o mundo. Ao contrário do que você possa imaginar, estes aparelhos são extremamente poluentes e tóxicos, pois possuem em sua composição, dentre outras substâncias, metais pesados que podem causar sérios danos à saúde.</p>
             </div>
           </div>
