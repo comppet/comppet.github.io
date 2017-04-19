@@ -141,6 +141,34 @@
 
 /*
 =============================================================================
+ PAGINA 7
+=============================================================================
+*/
+
+.main section.page7 {
+  background: url("imagens/pexels-chess.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.main section.page7 p {
+  text-align: left;
+  color: #fafafa;
+  font-size: 1.2em;
+}
+
+.main section.page7 h1 {
+  text-align: left;
+  padding: 0;
+  margin-bottom: 2%;
+  font-size: 70px;
+  color: #fafafa;
+}
+
+
+
+/*
+=============================================================================
  FOOTER
 =============================================================================
 */
