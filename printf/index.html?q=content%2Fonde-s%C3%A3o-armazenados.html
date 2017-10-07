@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+  <script type="text/javascript" src="http://localhost/printf616/firebug.js"></script>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br" dir="ltr">
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="prev" href="index.html%3Fq=content%252Fbancos-nosql.html" />
+<link rel="up" href="index.html%3Fq=content%252Fonde-est%25C3%25A1-o-big-data.html" />
+<link rel="next" href="index.html%3Fq=content%252Fvoc%25C3%25AA-sabia.html" />
+<link rel="shortcut icon" href="sites/default/files/printf_theme_favicon.gif" type="image/x-icon" />
+	    	<title>Onde os dados são armazenados? | printF</title>
+	    	<link type="text/css" rel="stylesheet" media="all" href="modules/book/book.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/node/node.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/system/defaults.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/system/system.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/system/system-menus.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/user/user.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/cck/theme/content-module.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/filefield/filefield.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/gallery/gallery.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/gallery/gallery_filter.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/jquerymenu/jquerymenu.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/thickbox/thickbox.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/cck/modules/fieldgroup/fieldgroup.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/themes/printf_theme/style.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/all/themes/printf_theme/print.css%3Fy.css" />
+	    	<script type="text/javascript" src="misc/jquery.js%3Fy"></script>
+<script type="text/javascript" src="misc/drupal.js%3Fy"></script>
+<script type="text/javascript" src="sites/default/files/languages/pt-br_b2a0a18d40ffa612ef9e3587df4c28ee.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/jquerymenu/jquerymenu.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/thickbox/thickbox.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/ajax/jquery/jquery.a_form.packed.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/ajax/ajax.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/ajax/plugins/disable_redirect/ajax_disable_redirect.js%3Fy"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/printf616/", "thickbox": { "close": "Close", "next": "Next \x3e", "prev": "\x3c Prev", "esc_key": "or Esc Key", "next_close": "Next / Close on last", "image_count": "Image !current of !total" } });
+//--><!]]>
+</script>
+	    	<!--[if lt IE 7]>
+	      	<link type="text/css" rel="stylesheet" media="all" href="/printf616/sites/all/themes/printf_theme/fix-ie.css" />	    	<![endif]-->
+		<!--link rel="stylesheet" type="text/css" href="style.css"-->
+		<!-- Prettify -->
+		<link href="../printf/sites/all/themes/printf_theme/google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="../printf/sites/all/themes/printf_theme/google-code-prettify/prettify.js"></script>
+		<!-- END Prettify -->
+		<link rel="stylesheet" type="text/css" href="../printf/sites/all/themes/printf_theme/default-page.css">
+	</head>
+	
+	<body onload="prettyPrint()">
+	<div id="principal_div">
+		<div id="logo_div"><a href="index.html%3Fq=content%252Fwelcome.html"><img src="../printf/sites/all/themes/printf_theme/images/logo.gif"></a></div>
+
+		<div id="header_div">
+			<div id="menu_sup_div"><div id="block-block-2" class="clear-block block block-block">
+
+
+  <div class="content"><a href="index.html%3Fq=content%252Fwelcome.html"> Home </a> &nbsp | 
+&nbsp <a href="index.html%3Fq=content%252Fsobre.html"> Sobre </a> &nbsp | 
+&nbsp <a href="index.html%3Fq=content%252Foutras-edi%25C3%25A7oes.html"> Outras edições </a> &nbsp |
+&nbsp <a href="index.html%3Fq=content%252Fcontato.html"> Contato </a></div>
+</div>
+</div>
+		</div>
+		<div id="chaves_1"></div>
+		<div id="main_div">
+			<div id="menu_div"><div id="block-book-0" class="clear-block block block-book">
+
+  <h2><a href="index.html%3Fq=content%252Fbig-data.html" class="book-title">Big Data</a></h2>
+
+  <div class="content"><ul class="menu"><li class="leaf first"><a href="index.html%3Fq=content%252Feditorial-6.html">Editorial</a></li>
+<li class="expanded active-trail"><a href="index.html%3Fq=content%252Fi-7.html">i++</a><ul class="menu"><li class="leaf first"><a href="index.html%3Fq=content%252Fo-que-%25C3%25A9-2.html">O que é?</a></li>
+<li class="leaf"><a href="index.html%3Fq=content%252Fpor-que-big-data.html">Por que Big Data?</a></li>
+<li class="leaf"><a href="index.html%3Fq=content%252Fguarda-costas-do-big-data.html">Guarda Costas do Big Data</a></li>
+<li class="expanded active-trail"><a href="index.html%3Fq=content%252Fonde-est%25C3%25A1-o-big-data.html">Onde está o Big Data?</a><ul class="menu"><li class="leaf first"><a href="index.html%3Fq=content%252Fbancos-nosql.html">Bancos NoSQL</a></li>
+<li class="leaf last active-trail"><a href="index.html%3Fq=content%252Fonde-s%25C3%25A3o-armazenados.html" class="active">Onde os dados são armazenados?</a></li>
+</ul></li>
+<li class="collapsed last"><a href="index.html%3Fq=content%252Fvoc%25C3%25AA-sabia.html">Você sabia?</a></li>
+</ul></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Fgames-7.html">Games</a></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Fsoftware-livre-5.html">Software Livre</a></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Fmundo-acad%25C3%25AAmico-6.html">Mundo Acadêmico</a></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Fnoticias-6.html">Notícias</a></li>
+<li class="leaf"><a href="index.html%3Fq=content%252Fentrevista-7.html">Entrevista</a></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Fmaratona-2.html">Maratona</a></li>
+<li class="leaf"><a href="index.html%3Fq=content%252Fcartas-do-leitor-7.html">Cartas do leitor</a></li>
+<li class="leaf last"><a href="index.html%3Fq=content%252Fwelcome.html">Big Data</a></li>
+</ul></div>
+</div>
+</div>
+			<div id="space_div"></div>
+			
+							
+				<div id="titulo_div">
+					Onde os dados são armazenados?()<span class="chaves_p">{</span>
+					
+				</div>
+				<div id="edc_div">
+											
+				</div>
+			
+			
+						<div id="caderno_div">
+			
+			i++			
+			
+			
+			
+			</div>
+			<div id="content_div" class = "clear-block">
+			
+						  				  				  				  				    		   <div class="content clear-block">
+    <p class="autoria">
+    Por: <a title="Caroline Barcelos Gonçalves" target="_blank" href="http://www.comppet.ufu.br/petiano/59">Caroline Barcelos Gonçalves</a>
+</p>
+<br/>
+
+<p align="justify"> 
+Alguns números interessantes que dizem respeito a quantidade de dados existentes atualmente para te deixar intrigado: 
+<ul>
+<li>Cerca de 2.7 Zetabytes (que são 27 seguidos de 21 0's) de dados existem atualmente 1. A previsão é que até 2020 a quantidade de dados aumentará em 50X o que é hoje. </li>
+<li>A cada 2 dias, cria-se mais informações que toda a quantidade de informações entre o início dos tempos e o início de 2003.</li>
+<li>Em 2012, 90% dos dados que existiam tinham sido criados nos últimos 2 anos.</li>
+</ul>
+A curiosidade é onde essa quantidade de informações são armazenadas. O que se sabe é que é preciso grande capacidade de armazenamento para tal tarefa. Existem diversas ferramentas na nuvem disponíveis para auxiliar as empresas no armazenamento desses dados. Citaremos algumas grandes corporações, o LHC (Large Hadron Collider - o maior acelerador de partículas do mundo, no Centro Europeu de Pesquisas Nucleares,  na Suíça) e Facebook e falaremos sobre a infra-estrutura utilizada para armazenados e manipular esses dados e seus data centers. 
+</p>
+
+<p align="justify"> 
+O LHC, gera 15 petabytes de dados anualmente. O Centro de Dados deles processam cerca de um petabyte de dados a cada dia.  Como não há recursos financeiros e nem computacionais para manipulação de dados no local criou-se uma intra-estrutura distribuída organizada em camadas para compartilhar a carga em diversos centros espalhados ao redor do mundo, chamada de <i>grid</i>. A imagem abaixo é do nível 0 das camadas do <i>grid</i>, com os servidores em uma área de 1450 m². Como apoio a capacidade computacional do LHC, o <i> Wigner Research Centre for Physics</i> em Budapest, Hungria opera como uma camada remota. O sistema principal (que fica na Suíca) fornece em média 45 petabytes de armazenamento de dados em disco, e inclui a maioria dos 100 mil núcleos de processamento do centro de dados, já o centro de dados de <i>Wigner</i> estenderá essa capacidade com 20.000 núcleos e 5,5 petabytes de dados em disco, e a tendência é só aumentar essa capacidade.
+</p>
+
+<div class="imagemMateria imgC">
+    <img width="640" height="360" title="Servidores nível 0 LHC" alt="Servidores nivel 0 LHC"
+         src="sites/default/files/printf1.jpg"/>
+    <p> Área de 1450 m² onde se encontram os servidores no nível 0 do LHC</p>
+ [<a title="http://home.web.cern.ch/about/computing" target="_blank" href="http://home.web.cern.ch/about/computing">Cern</a>]
+</div>
+
+<p align="justify"> 
+Algumas outras informações curiosas, o centro de dados do LHC abriga 11.000 servidores com 100.000 núcleos de processador, a estimativa é que 6000 mudanças no banco de dados são realizados a cada segundo. Outro número interessante é que em taxas de pico, 10 gigabytes de dados podem ser transferidas entre seus servidores por segundo.
+</p>
+
+<p align="justify"> 
+O Facebook precisa de infraestrutura para, por exemplo, armazenar os 300 milhões de novas fotos que os usuários colocam todos os dias. Para suportar a atividade, a empresa conta com dois centros de dados e ainda tem mais dois sendo construídos, eles se encontram em Prineville em Oregon, Forest City na Carolina do Norte, Lulea na Suécia. Apenas a área em Prineville conta com 307 mil metros quadrados e a instalação na Carolina do Norte é aproximadamente do mesmo tamanho. A empresa não divulga quantos servidores possui, mas segundo informações de técnicos da empresa em algumas apresentações, a partir de junho de 2010 a empresa possuía pelo menos 60.000 servidores, imagine atualmente.
+</p>
+<!--
+<div class="imagemMateriaOnde imgC">
+    <img width="640" height="360" title="Servidores nivel 0 LHC" alt="Servidores nivel 0 LHC"
+         src="http://www.comppet.ufu.br/printf/sites/default/files/printf1.jpg"/>
+    <p> Área de 1450 m² onde se encontram os servidores no nível 0 do LHC</p>
+ [<a title="http://home.web.cern.ch/about/computing" target="_blank" href="http://home.web.cern.ch/about/computing"></a>]
+</div>
+-->
+<h4 align="rigth">Referências:</h4>
+<p align="right" >
+
+    <a target="_blank" href="http://adayinbigdata.com/">A day in Big Data</a><br/>
+    <a target="_blank" href="http://www.datacenterknowledge.com/the-facebook-data-center-faq/">The Facebook Data Center FAQ</a><br/>
+    <a target="_blank" href="http://home.web.cern.ch/about/computing">Computing, CERN</a><br/>
+
+
+</p>  <div id="book-navigation-762" class="book-navigation">
+    <!---->
+
+        <div class="page-links clear-block">
+              <a href="index.html%3Fq=content%252Fbancos-nosql.html" class="page-previous" title="Go to previous page">‹ Bancos NoSQL</a>
+                    <a href="index.html%3Fq=content%252Fonde-est%25C3%25A1-o-big-data.html" class="page-up" title="Go to parent page">acima</a>
+                    <a href="index.html%3Fq=content%252Fvoc%25C3%25AA-sabia.html" class="page-next" title="Go to next page">Você sabia? ›</a>
+          </div>
+    
+  </div>
+  </div>
+  							</div>
+			<div id="chaves_2_1"></div>
+			<div id="chavesP_2" class="chaves_p">}</div>
+			<div id="credits_div">
+				
+			</div>
+		</div>
+		<div id="footer_div">
+			<div id="chaves_2_2"></div>
+		</div>
+	</div>
+		</body>
+</html>
