@@ -173,7 +173,7 @@ ol.task-list li.active {
 }
 ol.task-list li.done {
   color: #393;
-  background: transparent url(http://localhost/printf616/sites/all/misc/watchdog-ok.png) no-repeat 0px 50%; /* LTR */
+  background: transparent url(http://localhost/printf/sites/all/misc/watchdog-ok.png) no-repeat 0px 50%; /* LTR */
 }
 ol.task-list li.active {
   margin-right: 1em; /* LTR */
@@ -315,7 +315,7 @@ table .form-button, table .form-submit {
  */
 #header-region {
   min-height: 1em;
-  background: #d2e6f3 url(http://localhost/printf616/sites/all/themes/printf_theme/images/bg-navigation.png) repeat-x 50% 100%;
+  background: #d2e6f3 url(http://localhost/printf/sites/all/themes/printf_theme/images/bg-navigation.png) repeat-x 50% 100%;
 }
 
 #header-region .block {
@@ -358,7 +358,7 @@ table .form-button, table .form-submit {
 }
 
 #wrapper {
-  background: #f2f2f2 url(http://localhost/printf616/sites/all/themes/printf_theme/images/body.png) repeat-x 50% 0;
+  background: #f2f2f2 url(http://localhost/printf/sites/all/themes/printf_theme/images/body.png) repeat-x 50% 0;
 }
 
 #wrapper #container {
@@ -468,19 +468,19 @@ body.sidebars #squeeze {
 
 /* Now we add the backgrounds for the main content shading */
 #wrapper #container #center #squeeze {
-  background: #fff url(http://localhost/printf616/sites/all/themes/printf_theme/images/bg-content.png) repeat-x 50% 0;
+  background: #fff url(http://localhost/printf/sites/all/themes/printf_theme/images/bg-content.png) repeat-x 50% 0;
   position: relative;
 }
 
 #wrapper #container #center .right-corner {
-  background: transparent url(http://localhost/printf616/sites/all/themes/printf_theme/images/bg-content-right.png) no-repeat 100% 0;
+  background: transparent url(http://localhost/printf/sites/all/themes/printf_theme/images/bg-content-right.png) no-repeat 100% 0;
   position: relative;
   left: 10px;
 }
 
 #wrapper #container #center .right-corner .left-corner {
   padding: 60px 25px 5em 35px;
-  background: transparent url(http://localhost/printf616/sites/all/themes/printf_theme/images/bg-content-left.png) no-repeat 0 0;
+  background: transparent url(http://localhost/printf/sites/all/themes/printf_theme/images/bg-content-left.png) no-repeat 0 0;
   margin-left: -10px;
   position: relative;
   left: -10px;
@@ -566,12 +566,12 @@ ul.primary-links li a, ul.primary-links li a:link, ul.primary-links li a:visited
   margin: 0 1em;
   padding: .75em 0 0;
   color: #fff;
-  background: transparent url(http://localhost/printf616/sites/all/themes/printf_theme/images/bg-navigation-item.png) no-repeat 50% 0;
+  background: transparent url(http://localhost/printf/sites/all/themes/printf_theme/images/bg-navigation-item.png) no-repeat 50% 0;
 }
 
 ul.primary-links li a:hover, ul.primary-links li a.active {
   color: #fff;
-  background: transparent url(http://localhost/printf616/sites/all/themes/printf_theme/images/bg-navigation-item-hover.png) no-repeat 50% 0;
+  background: transparent url(http://localhost/printf/sites/all/themes/printf_theme/images/bg-navigation-item-hover.png) no-repeat 50% 0;
 }
 
 /**
@@ -654,7 +654,7 @@ ul.secondary li a, ul.secondary li.active a, ul.secondary li a:hover, ul.seconda
 }
 ul.primary li.active a, ul.primary li.active a:link, ul.primary li.active a:visited, ul.primary li a:hover,
 ul.secondary li.active a, ul.secondary li.active a:link, ul.secondary li.active a:visited, ul.secondary li a:hover {
-  background: url(http://localhost/printf616/sites/all/themes/printf_theme/images/bg-tab.png) repeat-x 0 50%;
+  background: url(http://localhost/printf/sites/all/themes/printf_theme/images/bg-tab.png) repeat-x 0 50%;
   color: #555;
 }
 ul.primary li.active a,
@@ -733,7 +733,7 @@ ul.links li, ul.inline li {
 #comments h2.comments {
   margin: 0 -25px;
   padding: .5em 25px;
-  background: #fff url(http://localhost/printf616/sites/all/themes/printf_theme/images/gradient-inner.png) repeat-x 0 0;
+  background: #fff url(http://localhost/printf/sites/all/themes/printf_theme/images/gradient-inner.png) repeat-x 0 0;
 }
 
 .comment {
@@ -784,7 +784,7 @@ ul.links li, ul.inline li {
   border: 1px solid #fff;
 }
 #palette .item-selected {
-  background: #fff url(http://localhost/printf616/sites/all/themes/printf_theme/images/gradient-inner.png) repeat-x 0 0;
+  background: #fff url(http://localhost/printf/sites/all/themes/printf_theme/images/gradient-inner.png) repeat-x 0 0;
   border: 1px solid #d9eaf5;
 }
 
@@ -805,13 +805,13 @@ tr.even td.menu-disabled {
  * Poll.module
  */
 .poll .bar {
-  background: #fff url(http://localhost/printf616/sites/all/themes/printf_theme/images/bg-bar-white.png) repeat-x 0 0;
+  background: #fff url(http://localhost/printf/sites/all/themes/printf_theme/images/bg-bar-white.png) repeat-x 0 0;
   border: solid #f0f0f0;
   border-width: 0 1px 1px;
 }
 
 .poll .bar .foreground {
-  background: #71a7cc url(http://localhost/printf616/sites/all/themes/printf_theme/images/bg-bar.png) repeat-x 0 100%;
+  background: #71a7cc url(http://localhost/printf/sites/all/themes/printf_theme/images/bg-bar.png) repeat-x 0 100%;
 }
 
 .poll .percent {
@@ -834,7 +834,7 @@ fieldset {
   margin: 1em 0;
   padding: 1em;
   border: 1px solid #d9eaf5;
-  background: #fff url(http://localhost/printf616/sites/all/themes/printf_theme/images/gradient-inner.png) repeat-x 0 0;
+  background: #fff url(http://localhost/printf/sites/all/themes/printf_theme/images/gradient-inner.png) repeat-x 0 0;
 }
 
 /* Targets IE 7. Fixes background image in field sets. */
@@ -950,7 +950,7 @@ div.admin .right {
 }
 
 div.admin-panel {
-  background: #fff url(http://localhost/printf616/sites/all/themes/printf_theme/images/gradient-inner.png) repeat-x 0 0;
+  background: #fff url(http://localhost/printf/sites/all/themes/printf_theme/images/gradient-inner.png) repeat-x 0 0;
   padding: 1em 1em 1.5em;
 }
 div.admin-panel .description {

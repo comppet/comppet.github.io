@@ -1,0 +1,252 @@
+body{
+	margin: 0px;
+	font: 12px/170% Verdana, sans-serif;
+  	color: #494949;
+	background: #DFDFDF url("images/bg_f.gif"); 	
+}
+
+#principal_div{
+	background:  url("images/main_bg.gif") repeat-y ;
+}
+
+
+#logo_div{
+	width: 220px;
+	height: 248px;
+	position: absolute;
+	top:0;
+	left:0;
+	background: #CCC url("images/logo_bg.gif");
+}
+
+#logo_div img{
+	position: relative;
+	left:17px;
+	top: 18px;
+}
+
+#header_div{
+	width: 100%;
+  	height:75px;
+	background: url("images/header_bg.gif");
+}
+
+#menu_sup_div{
+	float:left;
+	position:relative;
+	top: 40px;
+	left:230px;
+	height: 29px;
+	color: #FFF;
+	
+}
+
+#menu_sup_div a{
+	font-weight:bold;
+}
+
+#menu_sup_div a:link{
+	color: #BF8E0B;
+}
+
+#menu_sup_div a:visited{
+	color: #BF8E0B;
+}
+
+#menu_sup_div div{
+	display:inline-block;
+	margin-right: 3px;
+}
+
+#menu_sup_div ul{
+	margin:0;
+}
+
+#menu_sup_div ul li{
+	background: none;
+	padding: 0;
+	margin:0 3px 0 0;
+	display: inline-block;
+}
+
+#chaves_1{
+	background: url("images/abre_chaves.gif");
+	width: 37px;
+	height: 115px;
+	position: absolute;
+	top: 44px;
+	left: 964px;
+}
+
+#main_div{
+	width:100%;
+	background: url("images/printf_bg.gif") no-repeat;
+	clear: both;
+}
+
+#footer_div{
+	clear:both;
+	width:100%;
+	height:42px;
+	border-bottom: solid #eeeeef 2px;
+	background: url("images/footer_bg.gif");
+}
+
+#chaves_2_1{
+	float:left;
+	position:relative;	
+	bottom:-2px;
+	left: 206px;
+	width: 45px;
+	height: 80px;
+	background: url("images/chaves_2_1.gif");
+}
+
+#chaves_2_2{
+	position:relative;	
+	top:0px;
+	left: 206px;
+	width: 45px;
+	height: 42px;
+	background: url("images/chaves_2_2.gif");
+}
+
+#chavesP_2{
+	float: left;
+	position: relative;
+	height: 60px;
+	bottom:-20px;
+	left: 209px;
+}
+
+#menu_div{
+	float: left;
+	width:220px;
+	margin: 172px 0 0 20px;
+}
+
+#content_div{
+	width:680px;
+	background: transparent url(images/contentbg.png) repeat scroll 0 0;
+	padding: 10px 10px 60px 10px;
+	margin: 0px auto auto 267px;
+	position: relative;
+	border: solid 2px #FFF;
+}
+
+#titulo_div{
+	position: absolute;
+	top: 85px;
+	left: 220px;
+	height:62px;
+	font-family:Courier New;
+	font-weight: bold;
+	font-size:24px;
+	color: #9b2c2c;
+	width: 500px;
+	margin-left: 50px;
+	text-indent: -40px;
+}
+
+#edc_div{
+	position: absolute;
+	top: 85px;
+	left: 220px;
+	height:62px;
+	font-family:Courier New;
+	font-weight: bold;
+	font-size:16px;
+	color: #9b2c2c;
+	width: 500px;
+	margin-left: 50px;
+	text-indent: -40px;
+}
+
+
+#caderno_div{
+	position: absolute;
+	top: 75px;
+	left: 725px;
+	height:72px;
+	width: 229px;
+	line-height: 25px;
+	font-family:Courier New;
+	font-weight: bold;
+	font-size:34px;
+	text-align: right;
+	color: #9b2c2c;
+	margin-top:13px;
+}
+
+#space_div{
+	height:72px;
+}
+
+#credits_div{
+	height:62px;
+	text-align:center;
+	width: 690px;
+	margin: 10px 267px;
+	display: none;
+}
+
+.chaves_p{
+	font-family:Courier New;
+	font-weight: bolder;
+	font-size:36px;
+	color: #b2981e;
+	line-height: 40px;
+}
+
+#spacer_titulo{
+	float: left;
+	width:53px;
+	height:20px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+/*Estilo das matarias*/
+
+.autoria{
+	border-bottom:1px solid #BBBBBB;
+	margin:0 0 -6px 0;
+	text-align:right;
+}
+
+.imagemMateria{
+	background: url(images/contentbg.png);
+	border:1px solid #BBBBBB;
+	font-size:9px;
+	line-height:10px;
+	padding:3px;
+}
+
+.imagemMateria img{
+	border: solid 1px #BBBBBB;
+}
+
+.imagemMateria p{
+	border-top:1px solid #BBBBBB;
+	margin:0;
+	text-align:center;
+	width:100%;
+}
+
+.imgD{
+	float:right;
+	margin:15px 0 10px 15px;
+}
+
+.imgE{
+	float:left;
+	margin:15px 15px 10px 0;
+}
+
+.imgC{
+	text-align: center;
+	margin:10px 15px;
+}
+
+
