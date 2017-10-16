@@ -1,0 +1,157 @@
+html, body{
+	height: 100%;
+}
+body{
+	margin: 0px;
+	font: 12px/170% Verdana, sans-serif;
+  	color: #494949;
+	background: #DFDFDF url("images/bg_f.gif"); 	
+}
+
+#principal_div{
+	background: url("images/main_bg2.gif") repeat-y ;
+	height: 100%;
+	display: table;	
+}
+
+#content_main_div{
+	padding-bottom: 8px;
+	background: url("images/printf_bg2.gif") no-repeat ;
+	height:100%;/*para o IE*/
+	display: table;
+	width: 1030px;
+}
+
+#comppet_logo_div{
+	position: absolute;
+	left: 143px;
+	top: 141px;
+	height: 53px;
+	width: 88px;
+	background: url("images/comppet_logo.gif");
+}
+
+#comppet_apresenta_div{
+	position: absolute;
+	left:143px;
+	top:194px;
+	font-family: Courier New;
+	font-weight: bold;
+	font-size: 17px;
+	color: #444;
+}
+
+#logo_div{
+	z-index:2;
+	position: absolute;
+	left: 39px;
+	top: 228px;
+}
+
+#menu_div{
+	display:inline-block;
+	font-family:Verdana;
+	font-size:12px;
+	height:20px;
+	font-weight:bold;
+	letter-spacing:1px;
+	padding:55px 0 15px 230px; /*padding para baixo é feio mas o IE enxerga...*/
+}
+
+#menu_div div{
+	float:left;
+}
+
+#menu_div ul{
+	margin:0;
+}
+
+#menu_div ul li{
+	background: none;
+	padding: 0;
+	margin:0 3px 0 0;
+	display: inline-block;
+}
+
+#titulo_data_div{
+	margin: 15px 0 45px 335px;
+}
+
+#data_div{
+	margin: 0 0 0 25px;
+	font-family: Courier New;
+	font-weight: bold;
+	font-size: 23px;
+	color: #b41b1b;
+	word-spacing: 5px;
+	z-index:2;
+}
+
+#titulo_div{
+	height: 40px;
+	line-height:35px;
+	z-index:3;
+	margin-top:10px;
+	font-family: Courier New;
+	font-weight: bold;
+	font-size: 42px;
+	color: #b4671b;
+}
+
+#featured_div{
+	margin: 0 0 0 337px;
+	width: 600px;
+	height: 300px;
+	border: solid 4px #afb0af;
+}
+
+#outros_destaques_div{
+	margin: 54px 20px 20px 145px;
+	width: 820px;
+	padding: 10px 0px 0px 0px;
+	border-top: solid 1px #c4c4c4;
+	position: relative;
+}
+#outros_destaques_div h3{
+	margin-top: 5px;
+	color: #b4671b;
+}
+
+#chaves_1_div{
+	width:35px;
+	height:115px;
+	position:absolute;
+	top: 45px;
+	left: 965px;
+	background: url("images/chaves_1_main.gif");
+}
+
+#chaves_2_div{
+	width: 37px;
+	height:111px;
+	margin-left:135px;
+	background: url("images/chaves_2_main.gif");
+}
+
+#tabs-wrapper {
+	height:20px;
+	margin:0 0 25px 130px;
+	text-align: left;
+	padding:0 26px;
+	position:relative;
+}
+
+#views_slideshow_thumbnailhover_main_1 {
+	z-index:0;
+	border-style: solid;
+	border-color: #555;
+}
+
+.views_slideshow_thumbnailhover_breakout_teasers {
+	left:472px;
+	top:3px;
+}
+
+.messages {
+	margin: -12px 30px 0.75em 183px;
+}

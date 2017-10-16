@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+  <script type="text/javascript" src="http://localhost/printf/firebug.js"></script>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br" dir="ltr">
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="prev" href="index.html%3Fq=content%252Fcriando-seu-projeto.html" />
+<link rel="up" href="index.html%3Fq=content%252Fprograme-django.html" />
+<link rel="next" href="index.html%3Fq=content%252Fprimeiro-modelo.html" />
+<link rel="shortcut icon" href="sites/default/files/printf_theme_favicon.gif" type="image/x-icon" />
+	    	<title>Criando um Administrador | printF</title>
+	    	<link type="text/css" rel="stylesheet" media="all" href="modules/book/book.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/node/node.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/system/defaults.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/system/system.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/system/system-menus.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/user/user.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/cck/theme/content-module.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/filefield/filefield.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/gallery/gallery.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/gallery/gallery_filter.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/jquerymenu/jquerymenu.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/thickbox/thickbox.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/cck/modules/fieldgroup/fieldgroup.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/themes/printf_theme/style.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/all/themes/printf_theme/print.css%3Fy.css" />
+	    	<script type="text/javascript" src="misc/jquery.js%3Fy"></script>
+<script type="text/javascript" src="misc/drupal.js%3Fy"></script>
+<script type="text/javascript" src="sites/default/files/languages/pt-br_b2a0a18d40ffa612ef9e3587df4c28ee.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/jquerymenu/jquerymenu.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/thickbox/thickbox.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/ajax/jquery/jquery.a_form.packed.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/ajax/ajax.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/ajax/plugins/disable_redirect/ajax_disable_redirect.js%3Fy"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/printf/", "thickbox": { "close": "Close", "next": "Next \x3e", "prev": "\x3c Prev", "esc_key": "or Esc Key", "next_close": "Next / Close on last", "image_count": "Image !current of !total" } });
+//--><!]]>
+</script>
+	    	<!--[if lt IE 7]>
+	      	<link type="text/css" rel="stylesheet" media="all" href="/printf/sites/all/themes/printf_theme/fix-ie.css" />	    	<![endif]-->
+		<!--link rel="stylesheet" type="text/css" href="style.css"-->
+		<!-- Prettify -->
+		<link href="sites/all/themes/printf_theme/google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="sites/all/themes/printf_theme/google-code-prettify/prettify.js"></script>
+		<!-- END Prettify -->
+		<link rel="stylesheet" type="text/css" href="sites/all/themes/printf_theme/default-page.css">
+	</head>
+	
+	<body onload="prettyPrint()">
+	<div id="principal_div">
+		<div id="logo_div"><a href="index.html%3Fq=content%252Fwelcome.html"><img src="sites/all/themes/printf_theme/images/logo.gif"></a></div>
+
+		<div id="header_div">
+			<div id="menu_sup_div"><div id="block-block-2" class="clear-block block block-block">
+
+
+  <div class="content"><a href="index.html%3Fq=content%252Fwelcome.html"> Home </a> &nbsp | 
+&nbsp <a href="index.html%3Fq=content%252Fsobre.html"> Sobre </a> &nbsp | 
+&nbsp <a href="index.html%3Fq=content%252Foutras-edi%25C3%25A7oes.html"> Outras edições </a> &nbsp |
+&nbsp <a href="index.html%3Fq=content%252Fcontato.html"> Contato </a></div>
+</div>
+</div>
+		</div>
+		<div id="chaves_1"></div>
+		<div id="main_div">
+			<div id="menu_div"><div id="block-book-0" class="clear-block block block-book">
+
+  <h2><a href="index.html%3Fq=content%252Fcomputa%25C3%25A7%25C3%25A3o-no-esporte.html" class="book-title">Computação no Esporte</a></h2>
+
+  <div class="content"><ul class="menu"><li class="leaf first"><a href="index.html%3Fq=content%252Feditorial-1.html">Editorial</a></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Fi-1.html">i++</a></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Fgames-2.html">Games</a></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Fnot%25C3%25ADcias-1.html">Notícias</a></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Fsoftware-livre-comp-esporte.html">Software Livre</a></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Fmundo-acad%25C3%25AAmico-1.html">Mundo Acadêmico</a></li>
+<li class="expanded active-trail"><a href="index.html%3Fq=dicas_comp_esp.html">Dicas</a><ul class="menu"><li class="collapsed first"><a href="index.html%3Fq=content%252Finterfaces-de-usu%25C3%25A1rio-com-bootsrap.html">Bootsrap, from Twitter</a></li>
+<li class="expanded active-trail"><a href="index.html%3Fq=content%252Fprograme-django.html">Programe com Django!</a><ul class="menu"><li class="leaf first"><a href="index.html%3Fq=content%252Finstala%25C3%25A7%25C3%25A3o-0.html">Instalação</a></li>
+<li class="leaf"><a href="index.html%3Fq=content%252Fcriando-seu-projeto.html">Iniciando um Projeto</a></li>
+<li class="leaf active-trail"><a href="index.html%3Fq=content%252Fcriando-um-administrador.html" class="active">Criando um Administrador</a></li>
+<li class="leaf"><a href="index.html%3Fq=content%252Fprimeiro-modelo.html">Primeiro Modelo</a></li>
+<li class="leaf last"><a href="index.html%3Fq=content%252Fresultado-final.html">Resultado do Trabalho</a></li>
+</ul></li>
+<li class="leaf last"><a href="index.html%3Fq=content%252Fsports-tracker-0.html">Sports Tracker</a></li>
+</ul></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Fentrevista-1.html">Entrevista</a></li>
+<li class="leaf last"><a href="index.html%3Fq=content%252Fcartas-ao-leitor.html">Cartas ao Leitor</a></li>
+</ul></div>
+</div>
+</div>
+			<div id="space_div"></div>
+			
+							
+				<div id="titulo_div">
+					Criando um Administrador()<span class="chaves_p">{</span>
+					
+				</div>
+				<div id="edc_div">
+											
+				</div>
+			
+			
+						<div id="caderno_div">
+			
+			Dicas			
+			
+			
+			
+			</div>
+			<div id="content_div" class = "clear-block">
+			
+						  				  				  				  				    		   <div class="content clear-block">
+    <p class="autoria">Por: <a href="http://www.comppet.ufu.br/content/petianos/206" target="blank" title="Vinícius Fonseca Maciel">Vinícius Fonseca Maciel</a></p><br>
+<P align = "justify">Como já foi dito anteriormente, no Django não é necessário você perder horas criando um administrador, parte trivial e repetitivo em gerenciadores de conteúdo. Pelo framework, você terá apenas que seguir alguns passos e pronto, de uma maneira “mágica” você já tem um banco de dados e um usuário Administrador.</P>
+
+<P align = "justify">Para isto, procure pelo arquivo <b>settings.py</b> dentro da pasta gerada no tópico anterior.<br>
+Edite as linhas para que fiquem como o modelo abaixo:</P>
+<center><div class="imagemMateria imgC" style = "width: 405px"><img src="sites/default/files/uploads/Dicas/DjangoFoto1.png" width="400" height="150"></div></center>
+<P align = "justify">(Neste caso usaremos o sqlite e criaremos o banco com o nome de <b>meu_site.db</b>)</P>
+<P align = "justify">Depois, debaixo da linha <b>django.contrib.sites</b>, insira a linha <b>django.contrib.admin</b>:</P>
+<center><div class="imagemMateria imgC" style = "width: 405px"><img src="sites/default/files/uploads/Dicas/DjangoFoto2.png" width="400" height="150"></div></center>
+
+<P align = "justify">No arquivo <b>urls.py</b> remova os comentários (caracteres “<b>#</b>”) das linhas (4,5,16):</P>
+<ul>
+<li><b>from django.contrib import admin</li>
+<li>admin.autodiscover()</li>
+<li>url(r'^admin/', include(admin.site.urls))</b></li>
+
+<P align = "justify">(OBS: remova os espaços em branco iniciais de cada linha, pois a linguagem python trabalha com identações para reconhecimento de escopo)</P>
+
+<P align = "justify">Crie um novo arquivo “.bat” ou “.sh”, como o que já foi mencionado, com a diferença no comando para:<br>
+<b>python manage.py syncdb</b><br>
+(Chame-o por exemplo de cria_bd.bat ou cria_bd.sh)</P>
+
+<center><div class="imagemMateria imgC" style = "width: 405px"><img src="sites/default/files/uploads/Dicas/syncdb.png" width="400" height="280"></div></center>
+
+<P align = "justify">Este último comando irá criar todas as tabelas do seu banco e também cria o seu usuário Administrador.</P>
+
+<P align = "justify">Ao executar o “cria_bd” será perguntado se deseja criar um “SuperUser” ou “Administrador”, diga que “sim”:</P>
+
+<center><div class="imagemMateria imgC" style = "width: 505px"><img src="sites/default/files/uploads/Dicas/DjangoFoto3.png" width="500" height="180"></div></center>
+
+<P align = "justify">Será pedido que você preencha os dados de login do  seu Admin:<br>
+(Atente para o detalhe de que não é aceito emails em formatos inválidos)</P>
+
+<center><div class="imagemMateria imgC" style = "width: 385px"><img src="sites/default/files/uploads/Dicas/DjangoFoto4.png" width="380" height="150"></div></center>
+
+<P align = "justify">Após estes passos, dê um refresh na página localhost:8000. Você irá perceber que retornará um “erro 404” de página não encontrada. Isso acontece porque o seu site agora possui um conteúdo que é a página do admin. Portanto, insira o /admin ao endereço:<br>
+<b>localhost:8000/admin</b></P>
+
+<P align = "justify"><h3>Resultado:</h3></P>
+
+<center><div class="imagemMateria imgC" style = "width: 505px"><img src="sites/default/files/uploads/Dicas/DjangoFoto5.png" width=500" height="350">Login do Usuário</div></center>
+<center><div class="imagemMateria imgC" style = "width: 505px"><img src="sites/default/files/uploads/Dicas/DjangoFoto6.png" width="500" height="350"></div></center>  <div id="book-navigation-475" class="book-navigation">
+    
+        <div class="page-links clear-block">
+              <a href="index.html%3Fq=content%252Fcriando-seu-projeto.html" class="page-previous" title="Go to previous page">‹ Iniciando um Projeto</a>
+                    <a href="index.html%3Fq=content%252Fprograme-django.html" class="page-up" title="Go to parent page">up</a>
+                    <a href="index.html%3Fq=content%252Fprimeiro-modelo.html" class="page-next" title="Go to next page">Primeiro Modelo ›</a>
+          </div>
+    
+  </div>
+  </div>
+  							</div>
+			<div id="chaves_2_1"></div>
+			<div id="chavesP_2" class="chaves_p">}</div>
+			<div id="credits_div">
+				
+			</div>
+		</div>
+		<div id="footer_div">
+			<div id="chaves_2_2"></div>
+		</div>
+	</div>
+		</body>
+</html>

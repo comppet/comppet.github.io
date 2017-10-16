@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+  <script type="text/javascript" src="http://localhost/printf616/firebug.js"></script>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br" dir="ltr">
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="prev" href="index.html%3Fq=content%252Finstala%25C3%25A7%25C3%25A3o-0.html" />
+<link rel="up" href="index.html%3Fq=content%252Fprograme-django.html" />
+<link rel="next" href="index.html%3Fq=content%252Fcriando-um-administrador.html" />
+<link rel="shortcut icon" href="sites/default/files/printf_theme_favicon.gif" type="image/x-icon" />
+	    	<title>Iniciando um Projeto | printF</title>
+	    	<link type="text/css" rel="stylesheet" media="all" href="modules/book/book.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/node/node.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/system/defaults.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/system/system.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/system/system-menus.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/user/user.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/cck/theme/content-module.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/filefield/filefield.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/gallery/gallery.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/gallery/gallery_filter.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/jquerymenu/jquerymenu.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/thickbox/thickbox.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/cck/modules/fieldgroup/fieldgroup.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/themes/printf_theme/style.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/all/themes/printf_theme/print.css%3Fy.css" />
+	    	<script type="text/javascript" src="misc/jquery.js%3Fy"></script>
+<script type="text/javascript" src="misc/drupal.js%3Fy"></script>
+<script type="text/javascript" src="sites/default/files/languages/pt-br_b2a0a18d40ffa612ef9e3587df4c28ee.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/jquerymenu/jquerymenu.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/thickbox/thickbox.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/ajax/jquery/jquery.a_form.packed.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/ajax/ajax.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/ajax/plugins/disable_redirect/ajax_disable_redirect.js%3Fy"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/printf616/", "thickbox": { "close": "Close", "next": "Next \x3e", "prev": "\x3c Prev", "esc_key": "or Esc Key", "next_close": "Next / Close on last", "image_count": "Image !current of !total" } });
+//--><!]]>
+</script>
+	    	<!--[if lt IE 7]>
+	      	<link type="text/css" rel="stylesheet" media="all" href="/printf616/sites/all/themes/printf_theme/fix-ie.css" />	    	<![endif]-->
+		<!--link rel="stylesheet" type="text/css" href="style.css"-->
+		<!-- Prettify -->
+		<link href="../printf/sites/all/themes/printf_theme/google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="../printf/sites/all/themes/printf_theme/google-code-prettify/prettify.js"></script>
+		<!-- END Prettify -->
+		<link rel="stylesheet" type="text/css" href="../printf/sites/all/themes/printf_theme/default-page.css">
+	</head>
+	
+	<body onload="prettyPrint()">
+	<div id="principal_div">
+		<div id="logo_div"><a href="index.html%3Fq=content%252Fwelcome.html"><img src="../printf/sites/all/themes/printf_theme/images/logo.gif"></a></div>
+
+		<div id="header_div">
+			<div id="menu_sup_div"><div id="block-block-2" class="clear-block block block-block">
+
+
+  <div class="content"><a href="index.html%3Fq=content%252Fwelcome.html"> Home </a> &nbsp | 
+&nbsp <a href="index.html%3Fq=content%252Fsobre.html"> Sobre </a> &nbsp | 
+&nbsp <a href="index.html%3Fq=content%252Foutras-edi%25C3%25A7oes.html"> Outras edições </a> &nbsp |
+&nbsp <a href="index.html%3Fq=content%252Fcontato.html"> Contato </a></div>
+</div>
+</div>
+		</div>
+		<div id="chaves_1"></div>
+		<div id="main_div">
+			<div id="menu_div"><div id="block-book-0" class="clear-block block block-book">
+
+  <h2><a href="index.html%3Fq=content%252Fcomputa%25C3%25A7%25C3%25A3o-no-esporte.html" class="book-title">Computação no Esporte</a></h2>
+
+  <div class="content"><ul class="menu"><li class="leaf first"><a href="index.html%3Fq=content%252Feditorial-1.html">Editorial</a></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Fi-1.html">i++</a></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Fgames-2.html">Games</a></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Fnot%25C3%25ADcias-1.html">Notícias</a></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Fsoftware-livre-comp-esporte.html">Software Livre</a></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Fmundo-acad%25C3%25AAmico-1.html">Mundo Acadêmico</a></li>
+<li class="expanded active-trail"><a href="index.html%3Fq=dicas_comp_esp.html">Dicas</a><ul class="menu"><li class="collapsed first"><a href="index.html%3Fq=content%252Finterfaces-de-usu%25C3%25A1rio-com-bootsrap.html">Bootsrap, from Twitter</a></li>
+<li class="expanded active-trail"><a href="index.html%3Fq=content%252Fprograme-django.html">Programe com Django!</a><ul class="menu"><li class="leaf first"><a href="index.html%3Fq=content%252Finstala%25C3%25A7%25C3%25A3o-0.html">Instalação</a></li>
+<li class="leaf active-trail"><a href="index.html%3Fq=content%252Fcriando-seu-projeto.html" class="active">Iniciando um Projeto</a></li>
+<li class="leaf"><a href="index.html%3Fq=content%252Fcriando-um-administrador.html">Criando um Administrador</a></li>
+<li class="leaf"><a href="index.html%3Fq=content%252Fprimeiro-modelo.html">Primeiro Modelo</a></li>
+<li class="leaf last"><a href="index.html%3Fq=content%252Fresultado-final.html">Resultado do Trabalho</a></li>
+</ul></li>
+<li class="leaf last"><a href="index.html%3Fq=content%252Fsports-tracker-0.html">Sports Tracker</a></li>
+</ul></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Fentrevista-1.html">Entrevista</a></li>
+<li class="leaf last"><a href="index.html%3Fq=content%252Fcartas-ao-leitor.html">Cartas ao Leitor</a></li>
+</ul></div>
+</div>
+</div>
+			<div id="space_div"></div>
+			
+							
+				<div id="titulo_div">
+					Iniciando um Projeto()<span class="chaves_p">{</span>
+					
+				</div>
+				<div id="edc_div">
+											
+				</div>
+			
+			
+						<div id="caderno_div">
+			
+			Dicas			
+			
+			
+			
+			</div>
+			<div id="content_div" class = "clear-block">
+			
+						  				  				  				  				    		   <div class="content clear-block">
+    <p class="autoria">Por: <a href="http://www.comppet.ufu.br/content/petianos/206" target="blank" title="Vinícius Fonseca Maciel">Vinícius Fonseca Maciel</a></p><br>
+
+<h3><P align = "justify">A criação de um Projeto</P></h3>
+<P align = "justify">Para iniciar um projeto simples, primeiramente crie uma pasta onde ficarão todos os seus projetos Django e guarde o caminho do diretório. Exemplo:</P>
+
+<P align = "justify"><B>c:\projetos</B> (para Windows)<br>
+<B>/home/fulano/projetos”</B> (para Linux)</P>
+<br>
+<ul>
+<h5><li><P align = "justify">Criemos agora o projeto neste diretório. No <b>prompt de comando</b> do Windows digite:</P></h5></li>
+</ul>
+<P align = "justify"><B>"python <font color = "orange">c:\Python27\Scripts\</font>django-admin.py startproject meu_site"</B><br>
+(levando em consideração que o diretório em que se encontra o python seja Python27, caso contrário, certifique-se do nome correto.)</P>
+
+<ul>
+<li><h5><P align = "justify">Em distribuições Linux, digite o equivalente no <b>terminal</b>:</P></h5></li>
+<P align = "justify"><b>“django-admin.py startproject meu_site”</b></P>
+<br>
+
+<h3><P align = "justify">Inicializando o servidor Django: </P></h3>
+<P align = "justify">Agora temos o diretório do novo projeto criado juntamente com as configurações necessárias para já inicializar um servidor em sua máquina. No diretório <b>meu_site</b> crie os seguintes arquivos:</P>
+
+<h5><P align = "justify">Em Windows gere um arquivo com extensão .bat, exemplo “srv_run.bat”, com o conteúdo:</P></h5>
+<P align = "justify"><b>python manage.py runserver<br>
+pause</b></P>
+
+<h5><P align = "justify">Em Linux o equivalente “.sh”, escreva:</P></h5>
+<P align = "justify"><b>#!/bin/bash<br>
+python manage.py runserver</b><br>
+
+<center><div class="imagemMateria imgC" style = "width: 405px"><img src="sites/default/files/uploads/Dicas/pythonsrv.png" width="400" height="250"></div></center>
+
+(lembre-se de ceder a permissão para ele se tornar um arquivo de execução com o comando:<br>
+sudo <b>chmod +x</b> srv_run.sh, via terminal)</P>
+
+<P align = "justify">Salve os arquivos e os execute com clique duplo.</P>
+
+<h3><P align = "justify">Testando:</P></h3>
+
+<P align = "justify">Abra seu navegador de preferência e digite:</P>
+<P align = "justify"><b>http://localhost:8000</b>
+
+<P align = "justify">Uma tela sinalizando sucesso, como esta abaixo irá aparecer:</P>
+
+<center><div class="imagemMateria imgC" style = "width: 605px"><img src="sites/default/files/uploads/Dicas/workDjango.png" width="600" height="350">Funciona!</div></center>
+  <div id="book-navigation-475" class="book-navigation">
+    <!---->
+
+        <div class="page-links clear-block">
+              <a href="index.html%3Fq=content%252Finstala%25C3%25A7%25C3%25A3o-0.html" class="page-previous" title="Go to previous page">‹ Instalação</a>
+                    <a href="index.html%3Fq=content%252Fprograme-django.html" class="page-up" title="Go to parent page">acima</a>
+                    <a href="index.html%3Fq=content%252Fcriando-um-administrador.html" class="page-next" title="Go to next page">Criando um Administrador ›</a>
+          </div>
+    
+  </div>
+  </div>
+  							</div>
+			<div id="chaves_2_1"></div>
+			<div id="chavesP_2" class="chaves_p">}</div>
+			<div id="credits_div">
+				
+			</div>
+		</div>
+		<div id="footer_div">
+			<div id="chaves_2_2"></div>
+		</div>
+	</div>
+		</body>
+</html>

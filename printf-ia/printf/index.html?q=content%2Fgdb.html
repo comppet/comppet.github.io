@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+  <script type="text/javascript" src="http://localhost/printf/firebug.js"></script>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br" dir="ltr">
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="prev" href="index.html%3Fq=content%252Fhtml-5.html" />
+<link rel="up" href="index.html%3Fq=node%252F169.html" />
+<link rel="next" href="index.html%3Fq=node%252F179.html" />
+<link rel="shortcut icon" href="sites/default/files/printf_theme_favicon.gif" type="image/x-icon" />
+	    	<title>Utilizando um &quot;Debugador&quot; | printF</title>
+	    	<link type="text/css" rel="stylesheet" media="all" href="modules/book/book.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/node/node.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/system/defaults.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/system/system.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/system/system-menus.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="modules/user/user.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/cck/theme/content-module.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/filefield/filefield.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/gallery/gallery.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/gallery/gallery_filter.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/jquerymenu/jquerymenu.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/thickbox/thickbox.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/modules/cck/modules/fieldgroup/fieldgroup.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="all" href="sites/all/themes/printf_theme/style.css%3Fy.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/all/themes/printf_theme/print.css%3Fy.css" />
+	    	<script type="text/javascript" src="misc/jquery.js%3Fy"></script>
+<script type="text/javascript" src="misc/drupal.js%3Fy"></script>
+<script type="text/javascript" src="sites/default/files/languages/pt-br_b2a0a18d40ffa612ef9e3587df4c28ee.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/jquerymenu/jquerymenu.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/thickbox/thickbox.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/ajax/jquery/jquery.a_form.packed.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/ajax/ajax.js%3Fy"></script>
+<script type="text/javascript" src="sites/all/modules/ajax/plugins/disable_redirect/ajax_disable_redirect.js%3Fy"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/printf/", "thickbox": { "close": "Close", "next": "Next \x3e", "prev": "\x3c Prev", "esc_key": "or Esc Key", "next_close": "Next / Close on last", "image_count": "Image !current of !total" } });
+//--><!]]>
+</script>
+	    	<!--[if lt IE 7]>
+	      	<link type="text/css" rel="stylesheet" media="all" href="/printf/sites/all/themes/printf_theme/fix-ie.css" />	    	<![endif]-->
+		<!--link rel="stylesheet" type="text/css" href="style.css"-->
+		<!-- Prettify -->
+		<link href="sites/all/themes/printf_theme/google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="sites/all/themes/printf_theme/google-code-prettify/prettify.js"></script>
+		<!-- END Prettify -->
+		<link rel="stylesheet" type="text/css" href="sites/all/themes/printf_theme/default-page.css">
+	</head>
+	
+	<body onload="prettyPrint()">
+	<div id="principal_div">
+		<div id="logo_div"><a href="index.html%3Fq=content%252Fwelcome.html"><img src="sites/all/themes/printf_theme/images/logo.gif"></a></div>
+
+		<div id="header_div">
+			<div id="menu_sup_div"><div id="block-block-2" class="clear-block block block-block">
+
+
+  <div class="content"><a href="index.html%3Fq=content%252Fwelcome.html"> Home </a> &nbsp | 
+&nbsp <a href="index.html%3Fq=content%252Fsobre.html"> Sobre </a> &nbsp | 
+&nbsp <a href="index.html%3Fq=content%252Foutras-edi%25C3%25A7oes.html"> Outras edições </a> &nbsp |
+&nbsp <a href="index.html%3Fq=content%252Fcontato.html"> Contato </a></div>
+</div>
+</div>
+		</div>
+		<div id="chaves_1"></div>
+		<div id="main_div">
+			<div id="menu_div"><div id="block-book-0" class="clear-block block block-book">
+
+  <h2><a href="index.html%3Fq=content%252Frealidade-aumentada.html" class="book-title">Realidade Aumentada</a></h2>
+
+  <div class="content"><ul class="menu"><li class="leaf first"><a href="index.html%3Fq=node%252F254.html">Editorial</a></li>
+<li class="collapsed"><a href="index.html%3Fq=content%252Frealidade-aumentada-0.html">i++</a></li>
+<li class="collapsed"><a href="index.html%3Fq=node%252F168.html">Games</a></li>
+<li class="collapsed"><a href="index.html%3Fq=node%252F170.html">Notícias </a></li>
+<li class="collapsed"><a href="index.html%3Fq=node%252F171.html">Software Livre</a></li>
+<li class="collapsed"><a href="index.html%3Fq=node%252F248.html">Mundo Acadêmico</a></li>
+<li class="expanded active-trail"><a href="index.html%3Fq=node%252F169.html">Dicas</a><ul class="menu"><li class="leaf first"><a href="index.html%3Fq=content%252Fcomo-instalar-o-ubuntu-partir-de-um-pen-drive-0.html">Como instalar o Ubuntu a partir de um Pen drive</a></li>
+<li class="leaf"><a href="index.html%3Fq=content%252Fhtml-5.html">HTML5</a></li>
+<li class="leaf last active-trail"><a href="index.html%3Fq=content%252Fgdb.html" class="active">Utilizando um &quot;Debugador&quot;</a></li>
+</ul></li>
+<li class="collapsed"><a href="index.html%3Fq=node%252F179.html">Entrevista</a></li>
+<li class="leaf last"><a href="index.html%3Fq=node%252F239.html">Cartas do leitor</a></li>
+</ul></div>
+</div>
+</div>
+			<div id="space_div"></div>
+			
+							
+				<div id="titulo_div">
+					Utilizando um &quot;Debugador&quot;()<span class="chaves_p">{</span>
+					
+				</div>
+				<div id="edc_div">
+											
+				</div>
+			
+			
+						<div id="caderno_div">
+			
+			Dicas			
+			
+			
+			
+			</div>
+			<div id="content_div" class = "clear-block">
+			
+						  				  				  				  				    		   <div class="content clear-block">
+    <p class="autoria">Por:<a href="http://www.comppet.ufu.br/content/petianos/194" target="blank" title="Andrêssa Finzi">Andrêssa Finzi</a> e <a href="http://www.comppet.ufu.br/content/petianos/165" target="blank" title="Arthur Morais de Andrade">Arthur Morais de Andrade</a></p>
+<br>
+
+<p align="justify">Muitos programadores se deparam com erros em seus programas, muitas das vezes, os mesmos não conseguem encontrar certos erros. Uma maneira de localizar estes <i>bugs</i> é a ulização de "debugadores". Apresentamos o famoso d<i>ebugger</i> do mundo UNIX e que pode ser utilizado em ambiente Windows, o GNU Debugger ou GDB, <i>software</i> muito útil para fazer análises e encontrar erros decorrentes em nossos programas.</p>
+
+<br><center><h1> <font color="red"> GDB </h1></center></font></br>
+<br>
+<div class="imagemMateria imgD"><a target''><img src='http://img526.imageshack.us/img526/1/barulhoensurdecedor1269.jpg' hspace="5" width="150" height="150" align="right" /></a></div>
+<p align="justify"><font color="green">O que é o GDB?</font></p>
+<p align="justify">O GDB(<i>Gnu Debugger</i>) é um programa depurador que permite visualizar a execução em andamento de outros programas, ou seja, o GDB entra dentro da execução do programa, mostrando todos os passos que estão sendo executados por aquele programa. Ele possui suporte para muitas linguagens de programação, como C, C++ e FORTRAN.
+<font color="gray"></font>
+</p>
+
+<p align="justify"><font color="green">O que é um <i>debbuger</i> (depurador)</font></p>
+
+<p align="justify">Um depurador é um programa que executa outros programas, permitindo que o usuário exerça controle sobre estes programas para chegar às áreas problemáticas.</p><br/>
+
+<p align="justify"><font color="green">Como compilar o programa para utilizar o <i>debugger</i> ?</font></p>
+
+<p align="justify">O GDB não pode ser utilizado para depurar um programa que contém erros de compilação.
+Antes de tentar utilizar o GDB retire todos os erros que o compilador encontrar em seu código fonte.</p>
+Você pode escrever seu programa em qualquer editor de texto e depois salvar como .c, abra o terminal e na linha de comando digite:<br/><br/>
+<font color="blue">gcc nome_do_programa.c -o nome_executavel -g</font><br/><br/>
+Obs: '-g' inclui no código do arquivo executável as informações necessárias para o GDB iniciar a depuração.<br/><br/>
+
+<p align="justify"><font color="green">Como inicializar o GBD ?</font></p>
+
+<p align="justify">Para inicializar o GDB digita-se no terminal o seguinte comando:<br/><br/>
+
+<font color="blue">gdb nome_executavel </font><br/><br/>
+
+Após digitar o comando irá aparecer algo semelhante:<br/><br/>
+<font color="gray">
+&nbsp;&nbsp;        GNU gdb (GDB) 7.2-ubuntu<br/>
+&nbsp;&nbsp;      Copyright (C) 2010 Free Software Foundation, Inc.<br/>
+&nbsp;&nbsp;       License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html><br/>
+&nbsp;&nbsp;        This is free software: you are free to change and redistribute it.<br/>
+&nbsp;&nbsp;         There is NO WARRANTY, to the extent permitted by law.  Type "show compying"<br/>
+&nbsp;&nbsp;        and "show warranty" for details.<br/>
+&nbsp;&nbsp;         This GDB was configured as "i686-linux-gnu".<br/>
+&nbsp;&nbsp;       For bug reporting instructions, please see:<br/>
+&nbsp;&nbsp;         <http://www.gnu.org/software/gdb/bugs/>...<br/>
+&nbsp;&nbsp;        (gbd)<br/><br/></font>
+
+Agora você já está no ambiente do GDB e todos os comandos em diante são do "debugador".</p><br/>
+
+<p align="justify"><font color="green">Como visualizar as linhas do programa? </font></p>
+
+ Obs.: Usarei um exemplo de <i>loop</i> infinito durante as explicações.<br/>
+Usando o comando <font color="blue">list</font> ou <font color="blue">l</font>, é possível listar as linhas do código de seu programa.<br/><br/>
+<font color="gray">
+Ex:<br/>
+(gdb) list<br/>
+1&nbsp;#include < stdio.h > <br/>
+2&nbsp;main() <br/>
+3&nbsp;{ <br/>
+4&nbsp;int i,&nbsp;n=0; <br/>
+5&nbsp;&nbsp;&nbsp;for&nbsp;(i=1;i>n;i++){ <br/>
+6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(i%2==0) <br/>
+7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf&nbsp;("%d eh par \n",i);<br/> 
+8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else <br/>
+9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf&nbsp;("%d eh impar \n",i); <br/>
+10&nbsp;&nbsp;&nbsp;} <br/>
+(gdb) list<br/>
+11&nbsp;&nbsp;} <br/><br/></font>
+
+Obs.: Este comando só mostra dez linhas por vez, portanto é só dar sucessivos list para verificar todo o programa.</p><br/><br/>
+
+<p align="justify"><font color="green">Como marcar pontos de parada? </font><br/><br/>
+
+Usando o comando<font color="blue"> break</font> é possível criar um ponto de parada, ou seja, especificar linhas do código fonte onde a execução do programa deverá ser interrompida. Com isso, é possível analisar melhor o código e reconhecer os erros. <br/><br/>
+
+Ex: Ao executar o programa e ele irá parar na linha 5:<br/><br/>
+<font color="gray">
+(gdb) break 5 <br/>
+Ponto de parada 2 at 0x80483d5: file nome_do_programa.c, line 5. <br/>
+(gdb) run <br/>
+The program being debugged has been started already. <br/>
+Start it from the beginning? (y or n) y <br/>
+Starting program: /home/andressa/nome_do_programa <br/>
+Breakpoint 1, main () at nome_do_programa.c:5 <br/>
+5		for(i=1;i>n;i++){ <br/><br/></font>
+
+No caso, o ponto de parada foi estabelecido na linha 5, mas pode ser colocado em outras linhas do código , lembrando que os pontos de parada são acumulativos.<br/><br/>
+
+Para limpar os breakpoints contidos em uma linha especificada use o comando<font color="blue"> clear lin</font> (onde lin é o número da linha) ou caso nenhuma linha seja passada como parâmetro limpará todos os breakpoints a frente de onde a execução parou com o comando <font color="blue">clear</font>.</p><br/>
+
+<p align="justify"><font color="green">Como executar o programa? </font><br/><br/>
+
+Usa-se o  comando <font color="blue">run</font> para executar o programa. Com o comando <font color="blue">ctrl+c</font> é possível parar a execução, principalmente em casos de<i> loop</i> infinito.<br/><br/>
+<font color="gray">
+Ex:<br/>
+(gdb)run<br/>
+17346 eh par <br/>
+17347 eh impar<br/> 
+17348 eh par <br/>
+17349 eh impar <br/>
+17350 eh par <br/>
+17351 eh impar <br/>
+17352 eh par <br/>
+17353 eh impar <br/>
+17354 eh par <br/>
+17355 eh impar <br/>
+17356 eh par <br/>
+17357 eh impar <br/>
+17358 eh par ^C <br/>
+Program received signal SIGINT, Interrupt. <br/>
+0x0012e416 in __kernel_vsyscall () </p><br/></font>
+
+<p align="justify"><font color="green">Como executar o programa passo-a-passo ? </font><br/><br/>
+
+Temos dois comandos que podemos utilizar para executar passo-a-passo,<font color="blue"> step</font> e <font color="blue">next</font>, no caso, <font color="blue">step</font> vai fazendo passo-a-passo, ou seja, linha por linha e o<font color="blue"> next</font> é utilizado quando desejo passar por sub-rotina (função, procedimento ou mesmo subprograma) .<br/><br/>
+<font color="gray">
+Ex:<br/>
+Breakpoint 1, main () at nome_do_programa.c:5 <br/>
+5		for(i=1;i>n;i++){ <br/>
+(gdb) next <br/>
+6			if(i%2==0) <br/>
+(gdb) next <br/>
+9				printf("%d eh impar \n",i); <br/>
+(gdb) next <br/>
+1 eh impar <br/>
+5		for(i=1;i>n;i++){ <br/>
+(gdb) next <br/>
+6			if(i%2==0) <br/>
+(gdb) next <br/>
+7				printf("%d eh par \n",i); <br/>
+(gdb) <br/><br/></p></font>
+
+<p align="justify"><font color="green">Como verificar e alterar o valor da variável no momento? </font><br/><br/>
+
+Para verificar o valor da variável usamos o comando <font color="blue">print x</font> onde "x" é a variável, para alterar o valor da variável usamos  o comando<font color="blue"> set(x=num)</font> onde "x" é a variável e "num" é o valor que a variável assumirá. Como no exemplo podemos ver, i estava valendo 2, usei o comando<font color="blue"> set (i=7)</font>, agora i vale 7, se executarmos o próximo passo veremos que ele irá imprimir "7 eh impar".<br/><br/>
+<font color="gray">
+Ex: <br/>
+(gdb) print i <br/>
+$4 = 2 <br/>
+(gdb) set(i=7) <br/>
+(gdb) print i <br/>
+$5 = 7 <br/>
+(gdb) next <br/>
+9				printf("%d eh impar \n",i); <br/>
+(gdb) next <br/>
+7 eh impar <br/>
+5		for(i=1;i>n;i++){ <br/><br/></p></font>
+
+<p align="justify"><font color="green">Como obter ajuda sobre comandos do depurador? </font><br/><br/>
+
+Utilize o comando<font color="blue"> help</font>.<br/>
+(gdb) help<br/><br/>
+<font color="gray">
+list of classes of commands<br/>
+aliases -- Aliases of other comands<br/>
+breakpoints -- Making program stop at cartain points<br/>
+data -- Examinando dados<br/>
+files -- Especificandoe examinando arquivos<br/>
+internals -- Maintenance commands<br/>
+obscure -- Obscure features<br/>
+running -- Executando o programa<br/>
+stack -- Emaxining the stack<br/>
+status -- Status inquiries<br/>
+support -- Support facilities<br/>
+tracepoints -- Tracing of program execution whithout stopping the program<br/>
+user-defined -- User-defined comman<br/><br/></p></font>
+
+<p align="justify"><font color="green">Como sair do GDB? </font><br/><br/>
+
+Para sair do GDB use o programa<font color="blue"> quit</font>.<br/>
+(gdb) quit
+
+<p align="justify">Estes foram alguns comandos básicos  para demonstrar o que o GDB é capaz, sem contar que existem muitos outros detalhes mais específicos que não foram abordados. Para informações mais detalhadas consulte o manual do gdb. Digite na linha de comando:
+<font color="blue">man gdb</font>
+
+<p align="right">Referência:
+<br><a href="http://www.tutorialspoint.com/gnu_debugger/what_is_gdb.htm" target="blank" title="tutorialspoint">tutorialspoint</a></p>
+  <div id="book-navigation-167" class="book-navigation">
+    
+        <div class="page-links clear-block">
+              <a href="index.html%3Fq=content%252Fhtml-5.html" class="page-previous" title="Go to previous page">‹ HTML5</a>
+                    <a href="index.html%3Fq=node%252F169.html" class="page-up" title="Go to parent page">up</a>
+                    <a href="index.html%3Fq=node%252F179.html" class="page-next" title="Go to next page">Entrevista ›</a>
+          </div>
+    
+  </div>
+  </div>
+  							</div>
+			<div id="chaves_2_1"></div>
+			<div id="chavesP_2" class="chaves_p">}</div>
+			<div id="credits_div">
+				
+			</div>
+		</div>
+		<div id="footer_div">
+			<div id="chaves_2_2"></div>
+		</div>
+	</div>
+		</body>
+</html>
